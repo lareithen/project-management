@@ -16,5 +16,5 @@ Remove these comment lines to highlight the screenshots in the pull request.
 
 -->
 
-## Additional Information
+### Additional Information
 <!-- Add any extra information that reviewers should know. -->
