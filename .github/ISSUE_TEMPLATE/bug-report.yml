@@ -1,0 +1,33 @@
+name: "Bug Report"
+description: "Report a bug."
+title: "bug: <description>"
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes: 
+      label: Description
+      description: Describe the bug and provide the steps to reproduce it.
+    validations:
+      required: true
+  - type: textarea
+    id: expectedbhv
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: currentbhv
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+    validations:
+      required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional Information
+      description: Provide any additional details, such as links, screenshots, etc.
+    validations:
+      required: false
