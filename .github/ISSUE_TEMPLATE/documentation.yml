@@ -1,7 +1,7 @@
 name: Documentation
 description: Propose updates or additions to documentation.
 title: "docs: <description>"
-labels: [documentation]
+labels: ["documentation"]
 body:
   - type: textarea
     id: description
