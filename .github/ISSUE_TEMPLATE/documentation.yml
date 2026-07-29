@@ -1,25 +1,18 @@
 name: Documentation
-description: Add or update project documentation and related resources.
+description: Propose updates or additions to documentation.
 title: "docs: <description>"
 labels: [documentation]
 body:
   - type: textarea
-    id: goal
+    id: description
     attributes:
-      label: Goal
-      description: What needs to be investigated?
+      label: Description
+      description: Explain which documents need to be added or updated, and provide an explanation of why.
     validations:
       required: true
   - type: textarea
     id: references
     attributes:
       label: References
-    validations:
-      required: false
-  - type: textarea
-    id: extrainfo
-    attributes:
-      label: Additional Information
-      description: Provide any additional details, such as links, screenshots, etc.
     validations:
       required: false
