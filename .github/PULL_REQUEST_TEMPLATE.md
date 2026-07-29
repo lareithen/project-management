@@ -1,20 +1,12 @@
-### Description
-<!-- Describe what this pull request does and why this change is needed. -->
+## Description
+<!-- Describe your changes here in detail. Explain what you did and why.
+Provide screenshots, links, references, etc. if there any. -->
 
-### Related Issue(s)
-<!-- Link the related issue. -->
-<!-- for example: Closes #123 -->
+## Related Issue
+<!-- Link the related issue here. Use keywords like "Closes #123" or "Fixes #123" to auto-close the issue. -->
 
-### Screenshots
-<!--
-If any, add screenshots to help explain your changes.
-Remove these comment lines to highlight the screenshots in the pull request.
-
-|      Original       |      Updated       |
-| :-----------------: | :----------------: |
-| original screenshot | updated screenshot |
-
--->
-
-### Additional Information
-<!-- Add any extra information that reviewers should know. -->
+## Checklist
+<!-- Review and check all applicable items before requesting a review. -->
+- [ ] I have read the [workflow guide](/docs/workflow-guide).
+- [ ] I have tested my changes locally and they work as expected.
+- [ ] I have added or updated the necessary documentation (if applicable).
