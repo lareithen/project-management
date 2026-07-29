@@ -1,26 +1,12 @@
 name: Chore
-description: General maintenance tasks and project improvements.
+description: Suggest routine tasks, dependency updates, or config changes.
 title: "chore: <description>"
-labels: [chore]
+labels: ["chore"]
 body:
   - type: textarea
-    id: task
+    id: description
     attributes:
-      label: Task
-      description: Describe the maintenance task.
+      label: Description
+      description: Explain the routine task or configuration change.
     validations:
       required: true
-  - type: textarea
-    id: reason
-    attributes:
-      label: Reason
-      description: Why is it needed?
-    validations:
-      required: false
-  - type: textarea
-    id: extrainfo
-    attributes:
-      label: Additional Information
-      description: Provide any additional details, such as links, screenshots, etc.
-    validations:
-      required: false
