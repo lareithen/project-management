@@ -16,3 +16,12 @@ body:
       label: References
     validations:
       required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched for existing issues to avoid duplicates.
+          required: true
+        - label: I have read the workflow guide.
+          required: true
