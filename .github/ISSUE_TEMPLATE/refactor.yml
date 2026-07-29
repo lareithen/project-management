@@ -1,26 +1,21 @@
 name: Refactor
-description: Improve existing code without changing behavior.
+description: Propose code improvements without changing behavior.
 title: "refactor: <description>"
-labels: [refactor]
+labels: ["refactor"]
 body:
   - type: textarea
-    id: scope
+    id: description
     attributes:
-      label: Scope
-      description: What should be refactored?
+      label: Description
+      description: Explain what needs to be refactored and the reasons why.
     validations:
       required: true
-  - type: textarea
-    id: reason
+  - type: checkboxes
+    id: checklist
     attributes:
-      label: Reason
-      description: Why is this refactor needed?
-    validations:
-      required: false
-  - type: textarea
-    id: extrainfo
-    attributes:
-      label: Additional Information
-      description: Provide any additional details, such as links, screenshots, etc.
-    validations:
-      required: false
+      label: Checklist
+      options:
+        - label: I have searched for existing issues to avoid duplicates.
+          required: true
+        - label: I have read the workflow guide.
+          required: true
